@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.proceed {
+  background: linear-gradient(135deg, darkviolet);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Public Sans", sans-serif;
+  width: 250px;
+  transform: translate(550px,40px);
+  margin-bottom: 40px;  
+}
+.one{
+  margin-top: 20px;
+}
+.proceed:hover {
+  background: linear-gradient(135deg, #4F1985);
+}
+
+li {
+  font-size: 20px;
+}
+
+
+.transaction-section {
+  padding: 20px;
+}
+
+
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.transaction-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.transaction-column {
+  width: 25%;
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-top: 5px;
+  box-sizing: border-box;
+  cursor: not-allowed;
+}
+
+input[type="text"]:read-only {
+  background-color: #f0f0f0;
+}
+
+/* Add hover effect for better UI */
+input[type="text"]:focus {
+  outline: none;
+  border-color: darkviolet;
+}
+
+input[type="text"]:hover {
+  border-color: #4F1985;
+}
+
+
+.form-group + .form-group {
+  margin-top: 20px;
+}
